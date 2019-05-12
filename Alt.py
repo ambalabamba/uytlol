@@ -146,7 +146,7 @@ class AFunStickArenaExperience:
         self.RoomList = []
  
         Username, Password = "Suffering;uyt123".split(";")
-        Rank(Username, Password, "ballistick1.xgenstudios.com", 1139) # 45.32.193.38
+        Rank(Username, Password, "45.32.193.38", 1138) # 45.32.193.38
  
 if __name__ == "__main__":
     AFunStickArenaExperience()
