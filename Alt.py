@@ -127,7 +127,7 @@ class Rank:
         RoomName = '1v1'
         CreateRoom = ["027200{}".format(RoomName)]
         JoinRoom = ["04{}".format(RoomName), "03{}".format(RoomName)]#, "06{};mp".format(RoomName)]
-        Sepuku = ["509", "804500700", "6807000", "7{}7000".self.UserID] #self.UserID
+        Sepuku = ["509", "804500700", "6807000", "7{}7000".format(self.UserID)] #self.UserID
  
         for Packet in CreateRoom:
             self.sendPacket(Packet)
