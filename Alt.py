@@ -145,7 +145,7 @@ class AFunStickArenaExperience:
         self.BufSize = 4096
         self.RoomList = []
  
-        Username, Password = "Suffering;uyt".split(";")
+        Username, Password = "Suffering;uyt123".split(";")
         Rank(Username, Password, "ballistick1.xgenstudios.com", 1139) # 45.32.193.38
  
 if __name__ == "__main__":
